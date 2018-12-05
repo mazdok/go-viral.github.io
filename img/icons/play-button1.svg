@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="81px" viewBox="0 0 157 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>play-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.2%" y="-5.2%" width="114.5%" height="114.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.496688179 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.270927835 0.482163048 144.494845 0.182163048 144.494845 145 0.270927835 145"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-sgv" transform="translate(-642.000000, -1457.000000)">
+            <g id="Group-9" transform="translate(270.000000, 1282.000000)">
+                <g id="play-button" filter="url(#filter-1)" transform="translate(378.000000, 178.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M134.827237,36.6243505 C114.877918,2.06750515 70.6941031,-9.78558763 36.1417732,10.1817938 C1.5894433,30.1130515 -10.2636495,74.3149278 9.69921649,108.871773 C29.6304742,143.424103 73.836866,155.259134 108.389196,135.309814 C142.941526,115.360495 154.776557,71.1766804 134.827237,36.6243505 Z M101.155423,122.788433 C73.516268,138.750598 38.1692165,129.277155 22.2070515,101.638 C6.2448866,73.9988454 15.7138144,38.6517938 43.3574845,22.6896289 C70.9966392,6.72746392 106.361753,16.1963918 122.305856,43.8355464 C138.268021,71.4792165 128.794577,106.826268 101.155423,122.788433 Z M98.2655258,69.7994639 L60.4304536,47.7369072 C56.9896701,45.7230103 54.2036289,47.3305155 54.2216907,51.3176701 L54.4158557,95.1131546 C54.4339175,99.1183711 57.2560825,100.739423 60.7104124,98.7300412 L98.2474639,77.051299 C101.701794,75.0599794 101.719856,71.8133608 98.2655258,69.7994639 Z" id="Fill-1" fill="#ffffff63" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
